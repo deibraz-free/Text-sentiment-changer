@@ -5,9 +5,9 @@ Some basic UI was give to the project. All UI is translated to English (translat
 
 ![Image 2](https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/2.png#left)
 
-![Image 1](https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/1.png#left)
+![Image 1](https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/1.png#center)
 
-![Image 3](https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/3.png#left)
+![Image 3](https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/3.png#right)
 
 
 ## What is it?
