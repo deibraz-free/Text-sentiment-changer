@@ -1,7 +1,7 @@
 # Text sentiment changer
- Detects if text has a negative sentimental meaning, change it to positive using Bayes method.
+Detects if text has a negative sentimental meaning, change it to positive using Bayes algorithm.
 
-Some basic UI was give to the project. All UI is translated to English (translated from Lithuanian).
+Some basic UI was give to the project. Ignore the non-english text in images, all translated to English.
 
 ![Image 2](https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/2.png#left)
 
@@ -13,10 +13,10 @@ Some basic UI was give to the project. All UI is translated to English (translat
 ## What is it?
 First ever Machine Learning system that I've made (over a year ago), for an university project. Uploading older projects that might be useful to some people. It's rather simple, but does its job and is a nice entry point into machine-learning world.
 
-Project uses Bayes algorithm to check if text input text has a positive or negative sentimental value
+Project uses Bayes algorithm to check if text input text has a positive or negative sentimental value, if text found to be negative, change the negative words to their antonyms, closest antonym detected by using levenstein distance method.
 
 ## How does it work?
-- Check if model exists, if not, create new file (check if .pickle file exists);
+It first checks if a pre-trained model exists, if not, start training process (check if .pickle file exists). For convenience sake, train/test data is included, as well as a pretrained model.
 
 #### Training processes:
 - Use NLTK to download train, test data, stop words, etc;
