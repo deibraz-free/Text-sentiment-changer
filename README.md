@@ -2,6 +2,7 @@
  Detects if text has a negative sentimental meaning, change it to positive using Bayes method.
 
 Some basic UI was give to the project. All UI is translated to English (translated from Lithuanian).
+
 <img style="float: LEFT;" src="https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/2.png">
 <img style="float: LEFT;" src="https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/1.png">
 <img style="float: LEFT;" src="https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/3.png">
