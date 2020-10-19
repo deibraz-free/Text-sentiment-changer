@@ -2,6 +2,9 @@
  Detects if text has a negative sentimental meaning, change it to positive using Bayes method.
 
 Some basic UI was give to the project. All UI is translated to English (translated from Lithuanian).
+<img style="float: LEFT;" src="https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/2.png">
+<img style="float: LEFT;" src="https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/1.png">
+<img style="float: LEFT;" src="https://github.com/deibraz-free/Text-sentiment-changer/blob/master/img/3.png">
 
 ## What is it?
 First ever Machine Learning system that I've made (over a year ago), for an university project. Uploading older projects that might be useful to some people. It's rather simple, but does its job and is a nice entry point into machine-learning world.
