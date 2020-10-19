@@ -1,3 +1,5 @@
+# Copyright 2019, Deividas Brazauskas, All rights reserved.
+
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords, wordnet
 from nltk.tag import pos_tag
@@ -261,7 +263,7 @@ def getAntonym(word):
         setStatus('Problem with word "'+ word +'" no antonyms found!')
     return ret
 
-# Pradėti tirti tekstą
+# Start processing text
 def doProcess(event):
     # text = input("\nĮveskite norimą tekstą (angliškai): ")
     text = UI_TextEntry_Main.get("1.0",END)
@@ -306,7 +308,7 @@ def doProcess(event):
         setStatus("Text changed to positive.")
     else:
         setUIText2(text)
-        setStatus("Niekas nepakeista, tekstas jau buvo teigiamas!")
+        setStatus("Text unchanged, already positive!")
 
 te1_frame.pack(fill=X)
 ScrollBar.pack(side=RIGHT, fill=Y)
