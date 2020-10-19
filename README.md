@@ -23,7 +23,7 @@ Project uses Bayes algorithm to check if text input text has a positive or negat
 #### Prediction processes:
 - Preprocess (same as train data) given text;
 - Use classifier to classify if positive/negative, if negative continue, if positive return text;
-- Scan through text, check which words are negative, use antonyms to change to positive;
+- Scan through text, check which words are negative, use antonyms to change to positive using levenstein distance;
 
 ## Project uses:
 - Python 3.6;
